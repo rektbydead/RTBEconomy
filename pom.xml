@@ -11,7 +11,12 @@
     <properties>
         <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>15</maven.compiler.target>
+
+        <sonar.projectKey>rektbydead_RTBEconomy</sonar.projectKey>
+        <sonar.organization>rektbydead</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
+    
 
     <repositories>
         <!-- Spigot Maven repository -->
@@ -50,6 +55,8 @@
             <scope>system</scope>
             <systemPath>C:/Users/rlous/Desktop/servidor minecraft/spigot-1.8.8.jar</systemPath>
         </dependency>
+
+
 
     </dependencies>
 </project>
