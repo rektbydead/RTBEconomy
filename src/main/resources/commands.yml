@@ -1,0 +1,63 @@
+command:
+  money:
+    help: "&e/money <player> &7- &fCheck yours or other players name"
+  add:
+    name: "add" #dont change
+    usage: "&e6Usage: &f/money add <player> <quantity>." #Error message when you use it wrongly
+    help: "&e/money add <player> <quantity> &7- &fAdd money to player"
+    permission: "rtb.economy.admin" #command permission
+    alias: ["a"] #alias
+  set:
+    name: "set" #dont change
+    usage: "&eUsage: &f/money set <player> <quantity>."
+    help: "&e/money set <player> <quantity> &7- &fSet player's money"
+    permission: "rtb.economy.admin"
+    alias: ["s"]
+  remove:
+    name: "remove" #dont change
+    usage: "&eUsage: &f/money remove <player> <quantity>."
+    help: "&e/money remove <player> <quantity> &7- &fRemove money from a player"
+    permission: "rtb.economy.admin"
+    alias: ["r"]
+  pay:
+    name: "pay" #dont change
+    usage: "&eUsage: &f/money pay <player> <quantity>."
+    help: "&e/money pay <player> <quantity> &7- &fGive money to other players"
+    permission: "rtb.economy.player"
+    alias: ["p"]
+  toggle:
+    name: "toggle" #dont change
+    usage: "&eUsage: &f/money toggle."
+    help: "&e/money toggle &7- &fEnable/Disable the receivement of coins"
+    permission: "rtb.economy.player"
+    alias: ["t"]
+  number-formatter:
+    name: "format" #dont change
+    usage: "&eUsage: &f/money format."
+    help: "&e/money format &7- &fEnable/Disable number format"
+    permission: "rtb.economy.player"
+    alias: ["formatter"]
+  money-top:
+    name: "top" #dont change
+    usage: "&eUsage: &f/money top"
+    help: "&e/money top &7- &fCheck the 10 most rich players"
+    permission: "rtb.economy.player"
+    alias: ["moneytop", "balancetop", "top10"]
+  reload:
+    name: "reload" #dont change
+    usage: "&eUsage: &f/money reload."
+    help: "&e/money top &7- &fCheck the 10 most rich players"
+    permission: "rtb.economy.admin"
+    alias: ["rl"]
+  config:
+    name: "config" #dont change
+    usage: "&eUsage: &f/money config."
+    help: "&e/money config &7- &fChange your config through GUI"
+    permission: "rtb.economy.player"
+    alias: ["configuration"]
+  help:
+    name: "help" #dont change
+    usage: "&eUsage: &f/money help."
+    help: "&e/money help &7- &fView all commands"
+    permission: "rtb.economy.player"
+    alias: ["h"]
