@@ -14,13 +14,13 @@ import static rtb.economy.plugin.configuration.consts.ConstVariables.*;
 
 public class SubCmdMoneyTop extends AbstractSubCommand {
 
+    private static final String BREAK_LINE = "\n";
+    private static final int MAX_PLAYER_NAME_SIZE = 16;
+    
     public SubCmdMoneyTop(RTBEconomy economy) {
         super(economy, Config.getInstance().getCommandString("command.money-top.name"), Config.getInstance().getCommandString("command.money-top.usage"),
                 Config.getInstance().getCommandString("command.money-top.permission"), Config.getInstance().getCommandsList("command.money-top.alias"));
     }
-
-    private static final String BREAK_LINE = "\n";
-    private static final int MAX_PLAYER_NAME_SIZE = 16;
 
     @Override
     public void execute(CommandSender sender, String[] args) {
