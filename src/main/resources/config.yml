@@ -1,0 +1,53 @@
+mysql:
+  enable: false
+  hostname: "localhost"
+  database: "minecraft"
+  username: "root"
+  password: "pass123"
+  port: 3306
+
+economy:
+  defaultMoney: "300"
+  money-top:
+    size: 10
+    refresh-rate: 300 #seconds
+    on-refresh-show-message: true
+    only-show-message-if-top1-change: true
+    show-prefix: true
+  money-pay:
+    sound:
+      active: true
+      sound-name: "VILLAGER_YES"
+      sound-volume: 1
+      sound-pitch: 1
+    actionbar:
+      active: true
+      text-pay: "&eYou sent &f{money}&a$&e to &f{player}."
+      text-receive: "&eYou received &f{money}&a$&e from  &f{player}."
+  format-money-suffixes:
+    - ""
+    - "K"
+    - "M"
+    - "B"
+    - "T"
+    - "Q"
+    - "L"
+
+inventories:
+  config:
+    title: "Player's config menu"
+    rows: 3
+    items:
+      toggle:
+        material: "EMERALD_BLOCK"
+        position: 12
+        name: "&eToggle"
+        lore:
+          - "&7Click to &e{EnableOrDisable}&7."
+      numberFormat:
+        material: "NAME_TAG"
+        position: 14
+        name: "&eFormat Number"
+        lore:
+          - "&7Click to &e{EnableOrDisable}&7."
+
