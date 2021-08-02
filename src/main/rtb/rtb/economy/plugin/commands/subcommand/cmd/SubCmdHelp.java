@@ -7,12 +7,12 @@ import rtb.economy.plugin.economy.RTBEconomy;
 
 public class SubCmdHelp extends AbstractSubCommand {
 
+    private static final String BREAK_LINE = "\n";
+    
     public SubCmdHelp(RTBEconomy economy) {
         super(economy, Config.getInstance().getCommandString("command.help.name"), Config.getInstance().getCommandString("command.help.usage"),
                 Config.getInstance().getCommandString("command.help.permission"), Config.getInstance().getCommandsList("command.help.alias"));
     }
-
-    private static final String BREAK_LINE = "\n";
 
     @Override
     public void execute(CommandSender sender, String[] args) {
