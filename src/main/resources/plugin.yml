@@ -1,7 +1,0 @@
-name: RTBEconomy
-version: 1.1
-main: rtb.economy.plugin.Main
-depend: [Vault]
-commands:
-  money:
-    description: "Money ;D"
