@@ -45,6 +45,10 @@ public final class MoneyTop extends BukkitRunnable {
             return;
         }
 
+        if (accountList.isEmpty() || backupList.isEmpty()) {
+            return;
+        }
+
         Account oldTop = backupList.get(0);
         Account newTop = accountList.get(0);
 

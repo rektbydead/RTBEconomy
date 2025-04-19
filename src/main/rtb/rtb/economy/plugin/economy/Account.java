@@ -7,7 +7,6 @@ import rtb.economy.plugin.util.NumberFormatterHelper;
 import rtb.economy.plugin.util.UUIDHelper;
 import rtb.economy.plugin.vault.VaultChat;
 
-import javax.annotation.Nullable;
 import java.math.BigDecimal;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -72,7 +71,6 @@ public final class Account implements Comparable<Account> {
         return this.playerName;
     }
 
-    @Nullable
     public Player getPlayer() {
         return Bukkit.getPlayer(this.playerUUID);
     }

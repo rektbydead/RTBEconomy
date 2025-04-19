@@ -1,7 +1,6 @@
 package rtb.economy.plugin;
 
 import org.bukkit.Bukkit;
-import org.bukkit.craftbukkit.libs.jline.internal.Log;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 import rtb.economy.plugin.commands.Commands;
@@ -21,7 +20,6 @@ public final class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         if (!this.activateVault()) {
-            Log.info("No Vault found, disabling plugin.");
             getServer().getPluginManager().disablePlugin(this);
         }
 
