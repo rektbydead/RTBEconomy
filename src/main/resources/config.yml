@@ -7,7 +7,7 @@ mysql:
   port: 3306
 
 economy:
-  defaultMoney: "300"
+  default-money: "300"
   money-top:
     size: 10
     refresh-rate: 300 #seconds
@@ -44,7 +44,7 @@ inventories:
         name: "&eToggle"
         lore:
           - "&7Click to &e{EnableOrDisable}&7."
-      numberFormat:
+      number-format:
         material: "NAME_TAG"
         position: 14
         name: "&eFormat Number"

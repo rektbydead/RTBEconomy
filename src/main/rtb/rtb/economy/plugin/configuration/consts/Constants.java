@@ -62,10 +62,10 @@ public final class Constants {
     public static final String INVENTORY_TOGGLE_MATERIAL = "inventories.config.items.toggle.material";
     public static final String INVENTORY_TOGGLE_LORE = "inventories.config.items.toggle.lore";
 
-    public static final String INVENTORY_NUMBER_FORMAT_POSITION = "inventories.config.items.numberFormat.position";
-    public static final String INVENTORY_NUMBER_FORMAT_NAME = "inventories.config.items.numberFormat.name";
-    public static final String INVENTORY_NUMBER_FORMAT_MATERIAL = "inventories.config.items.numberFormat.material";
-    public static final String INVENTORY_NUMBER_FORMAT_LORE = "inventories.config.items.numberFormat.lore";
+    public static final String INVENTORY_NUMBER_FORMAT_POSITION = "inventories.config.items.number-format.position";
+    public static final String INVENTORY_NUMBER_FORMAT_NAME = "inventories.config.items.number-format.name";
+    public static final String INVENTORY_NUMBER_FORMAT_MATERIAL = "inventories.config.items.number-format.material";
+    public static final String INVENTORY_NUMBER_FORMAT_LORE = "inventories.config.items.number-format.lore";
 
     /*
         REPLACE VARIABLES
@@ -78,7 +78,7 @@ public final class Constants {
     /*
         Economy CONFIG
      */
-    public static final String ECONOMY_DEFAULT_MONEY = "economy.defaultMoney";
+    public static final String ECONOMY_DEFAULT_MONEY = "economy.default-money";
     public static final String ECONOMY_SUFFIXES_LIST = "economy.format-money-suffixes";
     public static final String ECONOMY_MONEY_TOP_SIZE = "economy.money-top.size";
     public static final String ECONOMY_MONEY_TOP_SHOW_MESSAGE = "economy.money-top.on-refresh-show-message";
